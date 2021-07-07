@@ -1,0 +1,73 @@
+/* Define main colors for easy updates*/
+:root{
+    --primary_color:#790f94;
+    --secondary_color:#f8f9f9;
+    --tertiary_color: #0f4694;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--secondary_color);
+    color: var(--tertiary_color);
+    
+}
+
+body{
+    margin: 10px 100px;
+    
+}
+
+h1,h2{
+    color: var(--primary_color);
+    
+}
+
+
+/*Style the links within the nav bar */
+nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    list-style: none;;
+    color: var(--tertiary_color);
+    margin: 10px 400px 10px 10px;
+    
+}
+
+li {
+       padding: 10px;
+}
+
+#profile_pic {
+    width:80%;
+    border-style: inset;
+    
+}
+
+
+section {
+    /* margin: 10px 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.project img {
+    min-width: 400px;
+    padding: 5px;
+}
+
+#project1{
+    width: 100%;
+}
+
+footer ul {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    list-style: none;;
+    color: var(--tertiary_color);
+    margin: 10px 10px;
+    
+}
