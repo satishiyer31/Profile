@@ -1,6 +1,6 @@
 /* Define main colors for easy updates*/
 :root{
-    --primary_color:#790f94;
+    --primary_color:#b34a21;
     --secondary_color:#f8f9f9;
     --tertiary_color: #0f4694;
 }
@@ -9,11 +9,12 @@
     font-family: 'Times New Roman', Times, serif;
     background-color: var(--secondary_color);
     color: var(--tertiary_color);
+    line-height: normal; 
     
 }
 
 body{
-    margin: 10px 100px;
+    margin: 10px 400px;
     
 }
 
@@ -22,6 +23,10 @@ h1,h2{
     
 }
 
+h1 {
+    margin-top: 50px;
+    text-align: left;
+}
 
 /*Style the links within the nav bar */
 nav ul{
@@ -30,13 +35,14 @@ nav ul{
     justify-content:flex-end;
     list-style: none;;
     color: var(--tertiary_color);
-    margin: 10px 400px 10px 10px;
+    margin: 10px 200px 10px 10px;
     
 }
 
 li {
        padding: 10px;
 }
+
 
 #profile_pic {
     width:80%;
@@ -53,7 +59,23 @@ section {
     
 }
 
-.project img {
+#special {
+    margin-left: 200px;
+    padding:20px;
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.5em;
+    font-size: larger;
+    color:var(--primary_color);
+    background-color: aquamarine;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 10px;
+    width:fit-content;
+    /* background-image:url(./star.jpeg);
+    background-repeat: no-repeat; */
+}
+
+.project {
     min-width: 400px;
     padding: 5px;
 }
@@ -68,6 +90,102 @@ footer ul {
     justify-content:space-between;
     list-style: none;;
     color: var(--tertiary_color);
-    margin: 10px 10px;
+    margin: 50px 10px 10px 10px;
     
+    
+}
+/* Visited links are marked with color of purple */
+a:visited {
+    color:purple;
+}
+
+li::before{
+    content:"\273A";
+}
+
+/* Adjusting as screen size reduces below 1300 */
+@media screen and (max-width:1300px) {
+    body {
+        margin:20px;
+
+    }
+    #special {
+        margin: 20px;
+    }
+    
+}
+ /* pads size 1025 and smaller  */
+@media screen and (max-width:1025px) {
+    body {
+        margin:20px;
+
+    }
+    #special {
+        margin: 20px;
+    }
+    
+    section {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #project1 {
+        width:50%;
+    }
+    #project2 {
+        width:50%;
+    }
+    #project3 {
+        width:50%;
+    }
+    li::before {
+        content: none;
+    }
+    footer ul{
+        margin-top: 20px;
+    }
+}
+
+/* Mobile phones  sizes 500px and smaller */
+@media screen and (max-width:500px) {
+    body {
+        margin:20px;
+
+    }
+    #special {
+        margin: 20px;
+    }
+    
+    section{
+        flex-direction: column;
+        text-align: left;
+    }
+
+    
+    #project1 {
+        width:50%;
+    }
+    #project2 {
+        width:50%;
+    }
+    #project3 {
+        width:50%;
+    }
+
+    nav ul , footer ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    li {
+        width: auto;
+        
+    }
+
+    li::before {
+        content: none;
+    }
+
+    h1, h2, img, p {
+        margin: 10px;
+    }
 }
