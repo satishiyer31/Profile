@@ -1,84 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Satish Iyer's Portfolio</title>
-    <link rel="stylesheet" href="./Assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./Assets/style.css"> -->
 
 
 </head>
+
 <body>
-    <h1>
-        Satish Iyer
-    </h1>
-   
-    <nav>
-        <ul>
-           <li><a href="#AboutMe">About me </a></li>
-            <li><a href="#MyProjects">Projects </a></li>
-            <li> <a href="#footer"> Contact me</a></li>
-            <li><a href="https://www.linkedin.com/in/satishi/" target="_blank" >Resume  </a></li>
-        </ul>
+    <div class="container">
 
-    </nav>
+        <h1>
+            Satish Iyer
+        </h1>
 
-    <div >
-         <img  id="profile_pic" src="./Assets/satish.jpg" alt="handsome guy on the bike with a picturesque background">   
-   </div>
+        <nav class="navbar navbar-expand-lg navbar-light ">
 
-   <div id="AboutMe">
-       <h2>
-        About me
-       </h2>
-        
-       <p>
-        Hello, Thank you for visiting my page. I am a Sales Professional looking to learn new things and I am very excited about coding. Below you will find my coding work. I will be updating this page regularly with my work.  
-       </p>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#AboutMe">About me </a></li>
+                <li class="nav-item"><a class="nav-link" href="#MyProjects">Projects </a></li>
+                <li class="nav-item"> <a class="nav-link" href="#footer"> Contact me</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/satishi/"
+                        target="_blank">Resume </a></li>
+            </ul>
 
-        <p id="special">
-             I really enjoy coding. This is really fun!
-        </p>
-       
-        <p>
-            My goal is to be able to build simple integrations for work. Be able to use some cool Javascript technologies such as react, node and build interactive applications. 
-        </p>
+        </nav>
+
     </div>
 
-    <h2>
-        My Projects
-     </h2>
+    <div class="container">
 
 
-    <section id="MyProjects">
-     
+        <div class="row">
+            <img id="profile_pic" src="./Assets/satish.jpg"
+                alt="handsome guy on the bike with a picturesque background" class="img-fluid">
+        </div>
+
+
+        <div id="AboutMe" class="row">
+            <h2>
+                About me
+            </h2>
+
+            <p>
+                Hello, Thank you for visiting my page. I am a Sales Professional looking to learn new things and I am
+                very
+                excited about coding. Below you will find my coding work. I will be updating this page regularly with my
+                work.
+            </p>
+
+            <p id="special">
+                I really enjoy coding. This is really fun!
+            </p>
+
+            <p>
+                My goal is to be able to build simple integrations for work. Be able to use some cool Javascript
+                technologies
+                such as react, node and build interactive applications.
+            </p>
+        </div>
+
+        <div class="row" id="MyProjects">
+            <h2>
+                My Projects
+            </h2>
         
-        <article class="project" >
-           <a href="https://satishiyer31.github.io/hmwrk-wk1-refactor/" target="_blank"> <img id="project1" src="https://via.placeholder.com/915x350.png?text=Refactoring code" alt-text="Image for Refactoing code"> </a>
-        </article>
-
-        <article class="project">
-            <img id="project2" src="https://via.placeholder.com/450x350.png?text=Project 2-Coming Soon!" alt-text="Image placeholder"> 
-        </article>
-
-        <article class="project" >
-            <img id="project3" src="https://via.placeholder.com/450x350.png?text=Project 3-Coming Soon!" alt-text="Image placeholder"> 
         
-        </article>
-
+            <section >
         
-    </section>
+        
+                <article class="project">
+                    <a href="https://satishiyer31.github.io/hmwrk-wk1-refactor/" target="_blank"> <img id="project1"
+                            src="https://via.placeholder.com/915x350.png?text=Refactoring code"
+                            alt-text="Image for Refactoing code"> </a>
+                </article>
+        
+                <article class="project">
+                    <img id="project2" src="https://via.placeholder.com/450x350.png?text=Project 2-Coming Soon!"
+                        alt-text="Image placeholder">
+                </article>
+        
+                <article class="project">
+                    <img id="project3" src="https://via.placeholder.com/450x350.png?text=Project 3-Coming Soon!"
+                        alt-text="Image placeholder">
+        
+                </article>
+        
+        
+            </section>
+        </div>
+
+    </div>
 
     <footer id="footer">
         <ul>
             <li>Phone: 406-451-1842 </li>
             <li>satishiyer31@gmail.com</li>
-            <li> <a href ="https://github.com/satishiyer31" target="_blank" >Github</a></li>
-            <li><a href="https://www.linkedin.com/in/satishi/" target="_blank" >Linkedin  </a></li>
-            
+            <li> <a href="https://github.com/satishiyer31" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/satishi/" target="_blank">Linkedin </a></li>
+
         </ul>
     </footer>
 
 </body>
+
 </html>
