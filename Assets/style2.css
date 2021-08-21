@@ -1,8 +1,9 @@
-
+/* Set images inside card to the same height */
 .card img {
     height: 150px;
 }
 
+/* highlight the special text */
 #special {
     margin-left: 20px;
     margin-right: 20px; 
@@ -18,4 +19,9 @@
     width:fit-content;
     /* background-image:url(./star.jpeg);
     background-repeat: no-repeat; */
+}
+
+/* Mark links are already visited */
+li a:visited {
+    color:purple;
 }
