@@ -2,3 +2,19 @@
 .card img {
     height: 150px;
 }
+
+#special {
+    margin-left: 20px;
+    padding:20px;
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.5em;
+    font-size: larger;
+    color: white;
+    background-color: rgb(30, 31, 30);
+    border-style: dashed;
+    border-color: black;
+    border-radius: 10px;
+    width:fit-content;
+    /* background-image:url(./star.jpeg);
+    background-repeat: no-repeat; */
+}
