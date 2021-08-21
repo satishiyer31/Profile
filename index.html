@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="./Assets/style.css"> -->
+    <link rel ="stylesheet" href="./Assets/style2.css">
 
 
 </head>
@@ -20,9 +21,9 @@
             Satish Iyer
         </h1>
 
-        <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar navbar-expand-lg">
 
-            <ul class="navbar-nav">
+            <ul class="navbar-nav navbar-right">
                 <li class="nav-item"><a class="nav-link" href="#AboutMe">About me </a></li>
                 <li class="nav-item"><a class="nav-link" href="#MyProjects">Projects </a></li>
                 <li class="nav-item"> <a class="nav-link" href="#footer"> Contact me</a></li>
@@ -38,8 +39,8 @@
 
 
         <div class="row">
-            <img id="profile_pic" src="./Assets/satish.jpg"
-                alt="handsome guy on the bike with a picturesque background" class="img-fluid">
+            <img id="profile_pic" src="./Assets/satish.jpg" alt="handsome guy on the bike with a picturesque background"
+                class="img-fluid">
         </div>
 
 
@@ -70,44 +71,87 @@
             <h2>
                 My Projects
             </h2>
-        
-        
-            <section >
-        
-        
-                <article class="project">
-                    <a href="https://satishiyer31.github.io/hmwrk-wk1-refactor/" target="_blank"> <img id="project1"
-                            src="https://via.placeholder.com/915x350.png?text=Refactoring code"
-                            alt-text="Image for Refactoing code"> </a>
-                </article>
-        
-                <article class="project">
-                    <img id="project2" src="https://via.placeholder.com/450x350.png?text=Project 2-Coming Soon!"
-                        alt-text="Image placeholder">
-                </article>
-        
-                <article class="project">
-                    <img id="project3" src="https://via.placeholder.com/450x350.png?text=Project 3-Coming Soon!"
-                        alt-text="Image placeholder">
-        
-                </article>
-        
-        
+
+
+            <section class="container">
+
+                <div class="row">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Assets/Project 1.png"  class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Research Stocks Now</h5>
+                          <p class="card-text">A tool that allows users to research a stock, add to their list and view more details about the stock.</p>
+                          <a href="https://arevampedlifecoding.github.io/RSN-Financial/index.html" class="btn btn-primary">View Application</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Assets/weather.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Weather Dashboard</h5>
+                          <p class="card-text">Weather Dashboard that allows a user to view current weather and weather forecast for any city.</p>
+                          <a href="https://satishiyer31.github.io/weatherdashboard/index.html" class="btn btn-primary">View Application</a>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Assets/DayPlanner.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Day Planner</h5>
+                          <p class="card-text">Allows a user to maintain a day planner for each hourly block. Blocks are color coded to show past and future meetings</p>
+                          <a href="https://satishiyer31.github.io/dayplanner/Develop/index.html" class="btn btn-primary">View Applicatione</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Assets/passwordGenerator.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Password Generator</h5>
+                          <p class="card-text">Allows a user to generate a complex password based on certain chosen criteria & constraints</p>
+                          <a href="https://satishiyer31.github.io/PasswordGenerator/" class="btn btn-primary">View Application</a>
+                        </div>
+                    </div>
+
+                    <!-- <article class="project">
+                        <a href="https://satishiyer31.github.io/hmwrk-wk1-refactor/" target="_blank"> <img id="project1"
+                                src="https://via.placeholder.com/915x350.png?text=Refactoring code"
+                                alt-text="Image for Refactoing code"> </a>
+                    </article>
+
+                    <article class="project">
+                        <img id="project2" src="https://via.placeholder.com/450x350.png?text=Project 2-Coming Soon!"
+                            alt-text="Image placeholder">
+                    </article>
+
+                    <article class="project">
+                        <img id="project3" src="https://via.placeholder.com/450x350.png?text=Project 3-Coming Soon!"
+                            alt-text="Image placeholder">
+
+                    </article> -->
+
+                </div>
             </section>
         </div>
 
     </div>
+    <div class="container">
 
-    <footer id="footer">
-        <ul>
-            <li>Phone: 406-451-1842 </li>
-            <li>satishiyer31@gmail.com</li>
-            <li> <a href="https://github.com/satishiyer31" target="_blank">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/satishi/" target="_blank">Linkedin </a></li>
 
-        </ul>
-    </footer>
+        <footer id="footer" class="navbar navbar-expand-lg navbar-light">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item"><span class="nav-link">Phone: 406-451-1842 </span></li>
+                <li class="nav-item"><span class="nav-link">satishiyer31@gmail.com</span></li>
+                <li class="nav-item"> <a class="nav-link" href="https://github.com/satishiyer31"
+                        target="_blank">Github</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/satishi/"
+                        target="_blank">Linkedin </a></li>
 
+            </ul>
+        </footer>
+    </div>
 </body>
 
 </html>
